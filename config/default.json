@@ -1,0 +1,17 @@
+{
+    "system" : {
+        "extensions" : [
+            {
+                "name" : "AgeChecker",
+                "resolve":"extensions/agechecker",
+                "enabled":false,
+                "priority":10
+            },
+            {
+                "name": "razorpay",
+                "resolve": "node_modules/evershop-razorpay",
+                "enabled": true
+            }
+        ]  
+    }
+} 

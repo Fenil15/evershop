@@ -43,6 +43,12 @@ docker-compose up -d
 
 For the full installation guide, please refer to our [Installation guide](https://evershop.io/docs/development/getting-started/installation-guide).
 
+## Manual Steps
+1. (One Time) `npm run setup` - This will ask for existing database url, name and database user name and password for connecting to the db. This will also ask Admin User Email and Password for login into the admin section of store.
+1. (Optional) `npm install @evershop/evershop@latest` For upgrading evershop to latest
+1. Build Project - `npm run build`
+1. Start Project - `npm run start`
+
 ## Documentation
 
 - [Installation guide](https://evershop.io/docs/development/getting-started/installation-guide).
